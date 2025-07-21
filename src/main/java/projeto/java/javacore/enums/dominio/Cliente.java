@@ -11,7 +11,7 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "Cliente [nome=" + nome + ", tipoCliente=" + tipoCliente + "]";
+        return "Cliente [nome = " + nome + ", tipoCliente = " + tipoCliente + "]";
     }
 
     public String getNome() {
