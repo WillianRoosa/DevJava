@@ -11,7 +11,12 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "Cliente [nome = " + nome + ", tipoCliente = " + tipoCliente + "]";
+        return "Cliente{" +
+                "nome = '" + nome + '\'' +
+                ", tipoClienteINT = " + tipoCliente.getVALOR() +
+                ", tipoRelatorio = " + tipoCliente.getNomeRelatorio() +
+                ", tipoCliente = " + tipoCliente +
+                '}';
     }
 
     public String getNome() {
