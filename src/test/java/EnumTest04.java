@@ -12,6 +12,5 @@ public class EnumTest04 {
         for (Pedido pedido : pedidos) {
             System.out.println(pedido);
         }
-
     }
 }
