@@ -16,7 +16,7 @@ public class LeituraDeArquivo {
         }
     }
 
-    private static void carregarConfiguracao(String caminhoArquivo) throws FileNotFoundException, IOException {
+    private static void carregarConfiguracao(String caminhoArquivo) throws IOException {
         if (caminhoArquivo == null || caminhoArquivo.trim().isEmpty()) {
             throw new FileNotFoundException("Arquivo não encontrado!");
         }
