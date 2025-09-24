@@ -13,7 +13,7 @@ public class RuntimeExceptionTest03 {
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            System.out.println("Fechaqndo recurso liberado pelo SO");
+            System.out.println("Fechando recurso liberado pelo SO (Sistema Operacional)");
         }
         return null;
     }
