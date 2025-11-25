@@ -3,7 +3,7 @@ package projeto.java.introducao;
 public class Aula5EstruturasCondicionais03 {
     public static void main(String[] args) {
         // Doar se salario > 5000 //
-        double salario = 6000;
+        double salario = 10000;
         String mensagemDoar = "Eu vou contratar um Dev de 2.500,00";
         String mensagemNaoDoar = "Ainda não tenho condições de contratar um Dev, mas vou ter.";
 

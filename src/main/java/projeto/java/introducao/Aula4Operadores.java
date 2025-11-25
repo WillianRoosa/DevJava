@@ -27,7 +27,7 @@ public class Aula4Operadores {
 
         System.out.println("isDEzMaiorQueVinte " + isDezMaiorQueVinte);
 
-        // Operadores lógicos -> && (AND), || (OR), ! //
+        // Operadores lógicos -> && (AND), || (OR),  ! (NOT) //
         int idade = 25;
         float salario = 3500;
         boolean isDentroDaLeiMaiorQueTrinta = idade >= 30 && salario >= 4612;
@@ -36,6 +36,7 @@ public class Aula4Operadores {
         System.out.println("isDentroDaLeiMaiorQueTrinta " + isDentroDaLeiMaiorQueTrinta);
         System.out.println("isDentroDaLeiMenorQueTrinta " + isDentroDaLeiMenorQueTrinta);
 
+        // Case PS5 //
         double valorContaCorrente = 500;
         double valorContaPoupanca = 10000;
         float valorPlaystation = 5000;
@@ -44,7 +45,7 @@ public class Aula4Operadores {
 
         System.out.println("Posso comprar o playstation 5: " + comprarPlaystationCinco);
 
-        // Operadores de atribuição -> = += -= *= /= %= //
+        // Operadores de atribuição -> (=) (+=) (-=) (*=) (/=) (%=) //
         double bonus = 1800;
         bonus += 1000;
         bonus -= 800;

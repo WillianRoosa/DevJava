@@ -26,7 +26,7 @@ public class Aula6EstruturasDeRepeticao01 {
         }
 
         int i = 10;
-        while (i >= 1){
+        while (i >= 1) {
             System.out.println(i);
             i--;
         }
@@ -36,10 +36,10 @@ public class Aula6EstruturasDeRepeticao01 {
         Scanner scan = new Scanner(System.in);
         int numero;
 
-        do{
+        do {
             System.out.println("Digite um número (0 para sair): ");
             numero = scan.nextInt();
-        }while(numero != 0);
+        } while (numero != 0);
 
         System.out.println("Programa encerrado.");
         scan.close();
