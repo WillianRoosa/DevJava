@@ -15,7 +15,7 @@ public class Aula6EstruturasDeRepeticao03 {
             if (value > 50) {
                 break;
             }
-            System.out.println("Este é o value: " + value);
+            System.out.println("Este é o while: " + value);
             value++;
         }
 

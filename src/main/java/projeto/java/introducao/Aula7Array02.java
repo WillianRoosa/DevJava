@@ -91,11 +91,11 @@ public class Aula7Array02 {
         Saída esperada: Lucas, Pedro, Ana, Maria, João
          */
         String[] sobreNome = new String[5];
-        sobreNome[0] = "Silva";
-        sobreNome[1] = "Rosa";
-        sobreNome[2] = "Goes";
-        sobreNome[3] = "Coutinho";
-        sobreNome[4] = "Souza";
+        sobreNome[0] = "João";
+        sobreNome[1] = "Maria";
+        sobreNome[2] = "Ana";
+        sobreNome[3] = "Pedro";
+        sobreNome[4] = "Lucas";
 
         for (int i = sobreNome.length - 1; i >= 0; i--) {
             System.out.println("Retornando ao Contrário: " + sobreNome[i]);
@@ -120,7 +120,7 @@ public class Aula7Array02 {
             }
         }
         // Imprime todos os valores (os pares aparecerão como 0) //
-        for (int i = 0; i < number.length ; i++) {
+        for (int i = 0; i < number.length; i++) {
             System.out.println("Números Finais: " + number[i]);
         }
     }
