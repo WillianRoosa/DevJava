@@ -32,8 +32,8 @@ public class Calculadora {
         num1 = 90;
         num2 = 120;
         System.out.println("Dentro do alteraDoisNumeros");
-        System.out.println("Num1 " + num1);
-        System.out.println("Num2 " + num2);
+        System.out.println("Num1: " + num1);
+        System.out.println("Num2: " + num2);
     }
 
     public void somaArray(int[] numeros) {

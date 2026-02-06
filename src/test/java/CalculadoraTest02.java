@@ -7,8 +7,8 @@ public class CalculadoraTest02 {
         int b = 2;
         calculadora.alteraDoisNumeros(a, b);
 
-        System.out.println("Dentro do CalculadoraTest02");
-        System.out.println("Num1 " + a);
-        System.out.println("Num2 " + b);
+        System.out.println("\nDentro do CalculadoraTest02");
+        System.out.println("a: " + a);
+        System.out.println("b: " + b);
     }
 }
