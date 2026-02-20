@@ -3,8 +3,8 @@ import projeto.java.javacore.introducaoclasses.dominio.Funcionario;
 public class FuncionarioTest01 {
     public static void main(String[] args) {
         Funcionario funcionario = new Funcionario();
-        funcionario.idade = 25;
         funcionario.nome = "Willian";
+        funcionario.idade = 25;
         //funcionario.salario = 4.800;
 
         System.out.println(funcionario.nome);
@@ -14,8 +14,8 @@ public class FuncionarioTest01 {
         System.out.println("----------------");
 
         Funcionario funcionario2 = new Funcionario();
-        funcionario2.idade = 23;
         funcionario2.nome = "Vinicius";
+        funcionario2.idade = 23;
         funcionario2.salario = 2.500;
 
         System.out.println(funcionario2.nome);

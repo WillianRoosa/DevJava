@@ -29,31 +29,31 @@ public class Anime {
         System.out.println("Tipo do Anime: " + this.tipo);
         System.out.println("Quantidade de episódios: " + this.episodios);
         System.out.println("Gênero do Anime: " + this.genero);
-        System.out.println("Estúdio Anime: " + this.estudio);
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
+        System.out.println("Estúdio: " + this.estudio);
     }
 
     public String getNome() {
         return this.nome;
     }
 
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public String getTipo() {
         return this.tipo;
     }
 
-    public void setEpisodios(int episodios) {
-        this.episodios = episodios;
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
     }
 
     public int getEpisodios() {
         return this.episodios;
+    }
+
+    public void setEpisodios(int episodios) {
+        this.episodios = episodios;
     }
 
     public String getGenero() {

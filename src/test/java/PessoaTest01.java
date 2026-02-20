@@ -8,11 +8,12 @@ public class PessoaTest01 {
         // pessoa.idade = 23;
 
         pessoa.setNome("Willian");
-        pessoa.setIdade(23);
+        pessoa.setIdade(24);
+        pessoa.imprime();
 
         // pessoa.imprime(); -> forma antiga de imprimir os dados da classe, apesar de
         // usar, estou aprendendo o uso do Get e Set.
 
-        System.out.println(pessoa.getNome() + "\n" + pessoa.getIdade());
+        //System.out.println("Nome > " + pessoa.getNome() + "\nIdade > " + pessoa.getIdade());
     }
 }

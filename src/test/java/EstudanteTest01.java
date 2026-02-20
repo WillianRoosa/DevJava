@@ -1,14 +1,21 @@
-import projeto.java.javacore.introducaoclasses.dominio.Estudante;
+import projeto.java.javacore.introducaometodos.dominio.Estudante;
+import projeto.java.javacore.introducaometodos.dominio.ImprimeEstudante;
 
 public class EstudanteTest01 {
     public static void main(String[] args) {
-        Estudante estudante = new Estudante();
-        estudante.nome = "Willian";
-        estudante.idade = 23;
-        estudante.sexo = 'M';
+        Estudante estudante01 = new Estudante();
+        Estudante estudante02 = new Estudante();
+        ImprimeEstudante impressora = new ImprimeEstudante();
 
-        System.out.println(estudante.nome);
-        System.out.println(estudante.idade);
-        System.out.println(estudante.sexo);
+        estudante01.nome = "Willian";
+        estudante01.idade = 23;
+        estudante01.sexo = 'M';
+
+        estudante02.nome = "Vinicius";
+        estudante02.idade = 24;
+        estudante02.sexo = 'M';
+
+        impressora.imprime(estudante01);
+        impressora.imprime(estudante02);
     }
 }

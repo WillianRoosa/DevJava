@@ -41,7 +41,7 @@ public class Calculadora {
         for (int num : numeros) {
             soma += num;
         }
-        System.out.println(soma);
+        System.out.println("Soma: " + soma);
     }
 
     public void somaVarArgs(int... numeros) {
@@ -49,6 +49,6 @@ public class Calculadora {
         for (int num : numeros) {
             soma += num;
         }
-        System.out.println(soma);
+        System.out.println("Soma: " + soma);
     }
 }

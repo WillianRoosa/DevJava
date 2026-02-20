@@ -1,6 +1,12 @@
 package projeto.java.javacore.introducaometodos.dominio;
 
+import java.text.NumberFormat;
+import java.util.Locale;
+
 public class Funcionario {
+    Locale locale = new Locale("pt", "BR");
+    NumberFormat formatter = NumberFormat.getCurrencyInstance(locale);
+
     private String nome;
     private int idade;
     private double[] salarios;
@@ -43,17 +49,17 @@ public class Funcionario {
             media += salario;
         }
         media /= salarios.length;
-        System.out.println("\nMédial Salarial: " + media);
+        System.out.println("\nMédia Salárial: " + formatter.format(media));
     }
 
     public void imprime() {
-        System.out.println(this.nome);
-        System.out.println(this.idade);
+        System.out.println("Nome: " + this.nome);
+        System.out.println("Idade: " + this.idade);
         if (salarios == null) {
             return;
         }
         for (double salario : salarios) {
-            System.out.print(salario + " ");
+            System.out.print("Salário: " + formatter.format(salario) + " | ");
         }
         imprimeMediaSalario();
     }
