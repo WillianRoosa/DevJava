@@ -13,7 +13,8 @@ public class Funcionario {
     public String toString() {
         return "Funcionario{" +
                 "nome = '" + nome + '\'' +
-                ", salarioBase = " + cargo.calcularSalarioComBonus() +
+                ", salarioBase = " + cargo.getSalario() +
+                ", salarioComBonus = " + cargo.calcularSalarioComBonus() +
                 ", cargo = " + cargo +
                 '}';
     }

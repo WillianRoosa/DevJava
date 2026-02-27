@@ -1,0 +1,33 @@
+package projeto.java.javacore.Gassociacao.dominio;
+
+public class Jogador {
+    private String nome;
+    private Time time;
+
+    public void imprime() {
+        System.out.println("Nome do Jogador: " + this.nome);
+        if (time != null) {
+            System.out.println("Nome do time: " + time.getNome());
+        }
+    }
+
+    public Jogador(String nome) {
+        this.nome = nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setTime(Time time) {
+        this.time = time;
+    }
+
+    public Time getTime() {
+        return time;
+    }
+}

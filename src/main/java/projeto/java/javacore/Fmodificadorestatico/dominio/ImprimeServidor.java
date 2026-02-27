@@ -1,0 +1,9 @@
+package projeto.java.javacore.Fmodificadorestatico.dominio;
+
+public class ImprimeServidor {
+    public void imprimeServidor(Servidor servidor) {
+        System.out.println();
+        System.out.println("Nome do Servidor -> " + servidor.getNomeServidor());
+        System.out.println("Servidores Online -> " + Servidor.getServidorOnline());
+    }
+}
