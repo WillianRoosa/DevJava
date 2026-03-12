@@ -1,20 +1,19 @@
 package projeto.java.javacore.Gassociacao.exercicio;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Seminario {
     private String titulo;
-    private Aluno[] alunos;
+    private List<Aluno> alunos = new ArrayList<>();
     private Local local;
 
-    public Seminario(String titulo) {
+    public Seminario(String titulo, Local local) {
         this.titulo = titulo;
+        this.local = local;
     }
 
-    public Seminario(String titulo, Aluno[] alunos) {
-        this.titulo = titulo;
-        this.alunos = alunos;
-    }
-
-    public Seminario(String titulo, Aluno[] alunos, Local local) {
+    public Seminario(String titulo, List<Aluno> alunos, Local local) {
         this.titulo = titulo;
         this.alunos = alunos;
         this.local = local;
@@ -28,11 +27,11 @@ public class Seminario {
         this.titulo = titulo;
     }
 
-    public Aluno[] getAlunos() {
+    public List<Aluno> getAlunos() {
         return alunos;
     }
 
-    public void setAlunos(Aluno[] alunos) {
+    public void setAlunos(List<Aluno> alunos) {
         this.alunos = alunos;
     }
 
