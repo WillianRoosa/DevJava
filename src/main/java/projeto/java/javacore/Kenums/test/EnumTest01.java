@@ -20,8 +20,8 @@ public class EnumTest01 {
 
         String formatValue1 = formatter.format(TipoPagamento.DEBITO.calcularDesconto(1000));
         String formatValue2 = formatter.format(TipoPagamento.CREDITO.calcularDesconto(1000));
-        System.out.printf("Calcular Desconto: %s\n", formatValue1);
-        System.out.printf("Calcular Desconto: %s\n", formatValue2);
+        System.out.println("Calcular Desconto: " + formatValue1);
+        System.out.println("Calcular Desconto: " + formatValue2);
 
         TipoCliente tipoCliente = TipoCliente.tipoClientePorNomeRelatorio("Pessoa Física");
         System.out.println(tipoCliente);
