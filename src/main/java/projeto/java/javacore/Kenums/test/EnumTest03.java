@@ -1,7 +1,7 @@
-package projeto.java.javacore.enums.test;
+package projeto.java.javacore.Kenums.test;
 
-import projeto.java.javacore.enums.exercicio.Cargo;
-import projeto.java.javacore.enums.exercicio.Funcionario;
+import projeto.java.javacore.Kenums.exercicio.Cargo;
+import projeto.java.javacore.Kenums.exercicio.Funcionario;
 
 public class EnumTest03 {
     public static void main(String[] args) {

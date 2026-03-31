@@ -1,7 +1,7 @@
 package projeto.java.javacore.Jmodificadorfinal.dominio;
 
 public class Carro {
-    private String nome = "Ferrari 911";
+    private String nome;
     public static final double VELOCIDADE_LIMITE = 250;
     public final Comprador COMPRADOR = new Comprador();
 

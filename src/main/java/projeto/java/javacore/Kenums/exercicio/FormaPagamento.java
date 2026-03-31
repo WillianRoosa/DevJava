@@ -1,4 +1,4 @@
-package projeto.java.javacore.enums.exercicio;
+package projeto.java.javacore.Kenums.exercicio;
 
 public enum FormaPagamento {
     PIX{

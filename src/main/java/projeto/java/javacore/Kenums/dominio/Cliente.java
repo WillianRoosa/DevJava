@@ -1,4 +1,4 @@
-package projeto.java.javacore.enums.dominio;
+package projeto.java.javacore.Kenums.dominio;
 
 public class Cliente {
     private String nome;
@@ -13,7 +13,7 @@ public class Cliente {
     public String toString() {
         return "Cliente{" +
                 "nome = '" + nome + '\'' +
-                ", tipoClienteINT = " + tipoCliente.getVALOR() +
+                ", tipoClienteID = " + tipoCliente.getID() +
                 ", tipoRelatorio = " + tipoCliente.getNomeRelatorio() +
                 ", tipoCliente = " + tipoCliente +
                 '}';
