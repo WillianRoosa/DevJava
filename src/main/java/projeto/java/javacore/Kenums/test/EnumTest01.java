@@ -8,11 +8,11 @@ public class EnumTest01 {
     public static void main(String[] args) {
         Cliente cliente1 = new Cliente("Willian Rosa", TipoCliente.PESSOA_JURIDICA);
         Cliente cliente2 = new Cliente("Alex Rosa", TipoCliente.PESSOA_FISICA);
-        
+
         System.out.println(cliente1);
         System.out.println(cliente2);
-        System.out.println(TipoPagamento.DEBITO.calcularDesconto(1000));
-        System.out.println(TipoPagamento.CREDITO.calcularDesconto(1000));
+        System.out.printf("Calcular Desconto: %.2f\n", TipoPagamento.DEBITO.calcularDesconto(1000));
+        System.out.printf("Calcular Desconto: %.2f\n", TipoPagamento.CREDITO.calcularDesconto(1000));
 
         TipoCliente tipoCliente = TipoCliente.tipoClientePorNomeRelatorio("Pessoa Física");
         System.out.println(tipoCliente);
