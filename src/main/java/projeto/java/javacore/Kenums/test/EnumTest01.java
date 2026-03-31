@@ -23,10 +23,10 @@ public class EnumTest01 {
         System.out.println("Calcular Desconto: " + formatValue1);
         System.out.println("Calcular Desconto: " + formatValue2);
 
-        TipoCliente tipoCliente = TipoCliente.tipoClientePorNomeRelatorio("Pessoa Física");
-        System.out.println(tipoCliente);
-
-        TipoCliente tipoCliente1 = TipoCliente.valueOf("PESSOA_FISICA");
+        TipoCliente tipoCliente1 = TipoCliente.tipoClientePorNomeRelatorio("Pessoa Física");
         System.out.println(tipoCliente1);
+
+        TipoCliente tipoCliente2 = TipoCliente.valueOf("PESSOA_FISICA");
+        System.out.println(tipoCliente2);
     }
 }
