@@ -1,8 +1,8 @@
-package projeto.java.javacore.interfaces.test;
+package projeto.java.javacore.Minterfaces.test;
 
-import projeto.java.javacore.interfaces.exercicios.GoogleDriveBackup;
-import projeto.java.javacore.interfaces.exercicios.PenDrive;
-import projeto.java.javacore.interfaces.exercicios.RestauradorDeSistema;
+import projeto.java.javacore.Minterfaces.exercicios.GoogleDriveBackup;
+import projeto.java.javacore.Minterfaces.exercicios.PenDrive;
+import projeto.java.javacore.Minterfaces.exercicios.RestauradorDeSistema;
 
 public class InterfaceTest03 {
     public static void main(String[] args) {

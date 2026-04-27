@@ -1,4 +1,4 @@
-package projeto.java.javacore.interfaces.dominio;
+package projeto.java.javacore.Minterfaces.dominio;
 
 public class FileLoader implements DataLoader, DataRemover {
     @Override
@@ -7,12 +7,12 @@ public class FileLoader implements DataLoader, DataRemover {
     }
 
     @Override
-    public void remover() {
-        System.out.println("Removendo do arquivo...");
+    public void remove() {
+        System.out.println("Removendo dados de um arquivo...");
     }
 
     @Override
-    public void checkingPermission() {
+    public void checkPermission() {
         System.out.println("Checando permissão do arquivo !!!");
     }
 }

@@ -1,9 +1,9 @@
-package projeto.java.javacore.interfaces.test;
+package projeto.java.javacore.Minterfaces.test;
 
-import projeto.java.javacore.interfaces.exercicios.Atualizavel;
-import projeto.java.javacore.interfaces.exercicios.Celular;
-import projeto.java.javacore.interfaces.exercicios.Notebook;
-import projeto.java.javacore.interfaces.exercicios.SmartTv;
+import projeto.java.javacore.Minterfaces.exercicios.Atualizavel;
+import projeto.java.javacore.Minterfaces.exercicios.Celular;
+import projeto.java.javacore.Minterfaces.exercicios.Notebook;
+import projeto.java.javacore.Minterfaces.exercicios.SmartTv;
 
 public class InterfaceTest02 {
     public static void main(String[] args) {

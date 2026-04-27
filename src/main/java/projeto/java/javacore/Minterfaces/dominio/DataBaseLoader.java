@@ -1,4 +1,4 @@
-package projeto.java.javacore.interfaces.dominio;
+package projeto.java.javacore.Minterfaces.dominio;
 
 public class DataBaseLoader implements DataLoader, DataRemover {
     @Override
@@ -7,16 +7,16 @@ public class DataBaseLoader implements DataLoader, DataRemover {
     }
 
     @Override
-    public void remover() {
-        System.out.println("Removendo do banco de dados...");
+    public void remove() {
+        System.out.println("Removendo dados do banco de dados...");
     }
 
     @Override
-    public void checkingPermission(){
+    public void checkPermission() {
         System.out.println("Checando permissão do banco de dados...");
     }
 
-    public static void retriveMaxDataSize() {
+    public static void retrieveMaxDataSize() {
         System.out.println("Dentro do retriveDataMaxSize na DataBaseLoader");
     }
 }

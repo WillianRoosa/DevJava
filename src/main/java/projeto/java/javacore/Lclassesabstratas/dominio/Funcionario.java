@@ -12,7 +12,7 @@ public abstract class Funcionario extends Pessoa {
 
     @Override
     public void imprime() {
-        System.out.println("Imprimindo dentro de Funcionário!!!");
+        System.out.println("Imprimindo dentro da classe Funcionário!!!");
     }
 
     public abstract void calculaBonus();

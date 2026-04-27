@@ -1,8 +1,8 @@
-package projeto.java.javacore.interfaces.test;
+package projeto.java.javacore.Minterfaces.test;
 
-import projeto.java.javacore.interfaces.exercicios.SensorSala;
-import projeto.java.javacore.interfaces.exercicios.SensorServidor;
-import projeto.java.javacore.interfaces.exercicios.SensorTemperatura;
+import projeto.java.javacore.Minterfaces.exercicios.SensorSala;
+import projeto.java.javacore.Minterfaces.exercicios.SensorServidor;
+import projeto.java.javacore.Minterfaces.exercicios.SensorTemperatura;
 
 public class InterfaceTest04 {
     public static void main(String[] args) {

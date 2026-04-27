@@ -1,4 +1,4 @@
-package projeto.java.javacore.interfaces.exercicios;
+package projeto.java.javacore.Minterfaces.exercicios;
 
 public class SensorServidor implements SensorTemperatura {
     @Override

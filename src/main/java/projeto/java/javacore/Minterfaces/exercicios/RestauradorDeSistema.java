@@ -1,4 +1,4 @@
-package projeto.java.javacore.interfaces.exercicios;
+package projeto.java.javacore.Minterfaces.exercicios;
 
 public class RestauradorDeSistema implements Carregavel {
     @Override

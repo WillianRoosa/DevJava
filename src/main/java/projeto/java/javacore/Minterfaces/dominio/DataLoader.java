@@ -1,15 +1,15 @@
-package projeto.java.javacore.interfaces.dominio;
+package projeto.java.javacore.Minterfaces.dominio;
 
 public interface DataLoader {
     void load();
 
     int MAX_DATA_SIZE = 10;
 
-    default void checkingPermission() {
+    default void checkPermission() {
         System.out.println("Checando permissão.");
     }
 
-    static void retriveMaxDataSize() {
+    static void retrieveMaxDataSize() {
         System.out.println("Dentro do retriveDataMaxSize na interface");
     }
 }
