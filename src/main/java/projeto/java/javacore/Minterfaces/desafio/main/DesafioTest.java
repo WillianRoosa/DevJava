@@ -1,0 +1,23 @@
+package projeto.java.javacore.Minterfaces.desafio.main;
+
+import projeto.java.javacore.Minterfaces.desafio.domain.*;
+import projeto.java.javacore.Minterfaces.desafio.service.ReceiptService;
+
+import java.math.BigDecimal;
+
+public class DesafioTest {
+    public static void main(String[] args) {
+        ReceiptService receipt = new ReceiptService();
+
+        Payment card = new CreditCard(BigDecimal.valueOf(2500), new PercentageFee(BigDecimal.valueOf(0.05)));
+        Payment pix = new Pix(BigDecimal.valueOf(7890), new NoFee());
+        Payment ticket = new Ticket(BigDecimal.valueOf(6789.95), new PercentageFee(BigDecimal.valueOf(0.02)));
+        Payment pix1 = new Pix(BigDecimal.valueOf(11500), new NoFee());
+
+        receipt.generateReceipt(card);
+        receipt.generateReceipt(pix);
+        receipt.generateReceipt(ticket);
+
+        receipt.generateReceipt(pix1);
+    }
+}
