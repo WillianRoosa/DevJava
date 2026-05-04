@@ -1,6 +1,6 @@
-package projeto.java.javacore.Npolimorfismo.servico;
+package projeto.java.javacore.Npolimorfismo.exercicios.servico;
 
-import projeto.java.javacore.Npolimorfismo.repositorio.Repositorio;
+import projeto.java.javacore.Npolimorfismo.exercicios.repositorio.Repositorio;
 
 public class RepositorioBancoDeDados implements Repositorio {
     @Override

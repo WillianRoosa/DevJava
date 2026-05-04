@@ -1,4 +1,4 @@
-package projeto.java.javacore.Npolimorfismo.exercicio3;
+package projeto.java.javacore.Npolimorfismo.exercicios.exercicio3;
 
 public class RepositorioBanco implements RepositorioGenerico {
     private String dado;

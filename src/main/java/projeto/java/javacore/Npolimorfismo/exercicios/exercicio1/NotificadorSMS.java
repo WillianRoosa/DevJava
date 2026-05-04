@@ -1,4 +1,4 @@
-package projeto.java.javacore.Npolimorfismo.exercicio;
+package projeto.java.javacore.Npolimorfismo.exercicios.exercicio1;
 
 public class NotificadorSMS implements Notificador {
     @Override

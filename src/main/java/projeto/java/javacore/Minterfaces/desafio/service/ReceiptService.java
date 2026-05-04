@@ -6,7 +6,7 @@ import projeto.java.javacore.Minterfaces.desafio.utils.Formatter;
 import java.math.BigDecimal;
 
 public class ReceiptService {
-    public void generateReceipt(Payment payment) {
+    public static void generateReceipt(Payment payment) {
         System.out.println("===== RECIBO DE PAGAMENTO =====");
         System.out.println("Valor do produto: " + Formatter.ofCurrency(payment.getValue()));
 

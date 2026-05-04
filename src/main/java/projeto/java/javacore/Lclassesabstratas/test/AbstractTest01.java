@@ -1,7 +1,7 @@
 package projeto.java.javacore.Lclassesabstratas.test;
 
-import projeto.java.javacore.classesabstratas.dominio.Desenvolvedor;
-import projeto.java.javacore.classesabstratas.dominio.Gerente;
+import projeto.java.javacore.Lclassesabstratas.dominio.Desenvolvedor;
+import projeto.java.javacore.Lclassesabstratas.dominio.Gerente;
 
 public class AbstractTest01 {
     public static void main(String[] args) {

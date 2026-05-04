@@ -1,4 +1,4 @@
-package projeto.java.javacore.Npolimorfismo.exercicio2;
+package projeto.java.javacore.Npolimorfismo.exercicios.exercicio2;
 
 public class PagamentoBoleto implements FormaDePagamento {
     @Override

@@ -1,6 +1,6 @@
-package projeto.java.javacore.Npolimorfismo.test;
+package projeto.java.javacore.Npolimorfismo.exercicios.test;
 
-import projeto.java.javacore.Npolimorfismo.exercicio.*;
+import projeto.java.javacore.Npolimorfismo.exercicios.exercicio1.*;
 
 public class NotificadorTest {
     public static void main(String[] args) {

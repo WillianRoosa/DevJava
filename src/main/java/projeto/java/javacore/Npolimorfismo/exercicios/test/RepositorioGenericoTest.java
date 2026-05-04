@@ -1,6 +1,9 @@
-package projeto.java.javacore.Npolimorfismo.test;
+package projeto.java.javacore.Npolimorfismo.exercicios.test;
 
-import projeto.java.javacore.Npolimorfismo.exercicio3.*;
+import projeto.java.javacore.Npolimorfismo.exercicios.exercicio3.RepositorioApiExterna;
+import projeto.java.javacore.Npolimorfismo.exercicios.exercicio3.RepositorioBanco;
+import projeto.java.javacore.Npolimorfismo.exercicios.exercicio3.RepositorioMemoria;
+import projeto.java.javacore.Npolimorfismo.exercicios.exercicio3.ServicoDePersistencia;
 
 public class RepositorioGenericoTest {
     public static void main(String[] args) {
