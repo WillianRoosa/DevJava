@@ -16,5 +16,7 @@ public class ProdutoTest01 {
         CalculadoraImposto.impostoProduto(tomate);
         System.out.println("--------------------");
         CalculadoraImposto.impostoProduto(tv);
+
+        // Testando GitHub no novo projeto clonado...
     }
 }
