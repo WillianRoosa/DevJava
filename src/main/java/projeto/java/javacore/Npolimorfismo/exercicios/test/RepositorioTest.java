@@ -5,6 +5,9 @@ import projeto.java.javacore.Npolimorfismo.exercicios.servico.RepositorioArquivo
 import projeto.java.javacore.Npolimorfismo.exercicios.servico.RepositorioBancoDeDados;
 import projeto.java.javacore.Npolimorfismo.exercicios.servico.RepositorioMemoria;
 
+import java.util.LinkedList;
+import java.util.List;
+
 public class RepositorioTest {
     public static void main(String[] args) {
         Repositorio repositorio = new RepositorioArquivo();
