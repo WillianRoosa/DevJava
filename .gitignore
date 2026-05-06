@@ -36,6 +36,3 @@ build/
 
 ### Mac OS ###
 .DS_Store
-
-### Arquivo sem versionamento ###
-arquivo/teste.txt
